@@ -56,6 +56,39 @@ color: white;
     margin: 0 auto;
 }
 
+.bg_blu_button {
+    background-color: #0084FD;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 25px;
+}
+
+.card {
+    display: flex;
+    margin-top: 30px;
+    background-color: #B5DDFF;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 30px;
+    border-radius: 25px;
+}
+
+.azure_title {
+    color: #0B89FD;
+    margin-bottom: 30px;
+}
+
+.phone {
+    width: 300px;
+}
+
+.subtitle {
+    line-height: 26px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
 @media (max-width: 820px)   {
     li {
       display: none;
