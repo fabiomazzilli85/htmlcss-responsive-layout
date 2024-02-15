@@ -52,6 +52,13 @@ margin: 20px;
 color: white;
 }
 
+.start {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+}
+
 .hamburger {
     color: white;
     margin-right: 20px;
@@ -155,7 +162,7 @@ color: white;
 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 670px) {
     .container {
         max-width:  600px;
         width: 100%;
