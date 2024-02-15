@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li, nav, a {
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg_azure {
+    background-color: #0084FD;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+margin: 20px;
+color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
