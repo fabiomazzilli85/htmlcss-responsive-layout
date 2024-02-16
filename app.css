@@ -1,16 +1,25 @@
+/* Regole Generali. */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+ul, ol, menu {
+	list-style: none;
 }
 
-ul, li, nav, a {
-    text-decoration: none;
+a {
+	color: black;
+	text-decoration: none;
 }
+
+img {
+	max-width: 100%;
+}
+
+/* Fine Regole Generali. */
 
 .row {
     display: flex;
