@@ -125,7 +125,7 @@ color: white;
     border-radius: 25px;
 }
 
-.ennesimo {
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
