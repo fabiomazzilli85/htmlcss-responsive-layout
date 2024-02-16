@@ -19,20 +19,24 @@ img {
 	max-width: 100%;
 }
 
-/* Fine Regole Generali. */
-
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* Fine Regole Generali. */
+
+
+
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.bg_azure {
+.page-header {
     background-color: #0084FD;
+    padding: 15px 0;
 }
 
 nav {
