@@ -24,13 +24,13 @@ ul, li, nav, a {
 
 .bg_azure {
     background-color: #0084FD;
-    max-width: 100%;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 14px 0px;
 }
 
@@ -78,19 +78,9 @@ color: white;
     margin: 20px 0;
 }
 
-.phone {
-    width: 270px;
-}
-
 .apple {
     color:white;
     margin-right: 3px;
-}
-
-.foto_hero {
-    width: 260px;
-    float: right;
-    margin-right:20px;
 }
 
 .button-blu {
@@ -119,16 +109,6 @@ color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
-    margin-left: 40px;
-    background-color: #B5DDFF;
-    border-radius: 25px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #B5DDFF;
     margin-top: 40px;
     margin-left: 40px;
@@ -146,9 +126,10 @@ color: white;
     border-radius: 25px;
 }
 
-.prova {
+.title-down {
     line-height: 26px;
     margin-bottom: 20px;
+    width: 260px;
 }
 
 .subtitle {
@@ -168,9 +149,6 @@ color: white;
     justify-content: space-between;
 }
 
-.prova {
-    width: 280px;
-}
 
 /* Da qui in avanti iniziano le media queries.  */
 
@@ -207,5 +185,16 @@ color: white;
 
     .hamburger {
         display: block;
+    }
+}
+
+@media (max-width: <576px) {
+    .container {
+        max-width:  551px;
+        width: 100%;
+    }
+
+    .bg_azure {
+        width: 100%;
     }
 }
