@@ -18,7 +18,7 @@ ul, li, nav, a {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -73,68 +73,96 @@ color: white;
     border-radius: 25px;
 }
 
-.card {
-    display: flex;
-    margin-top: 30px;
-    background-color: #B5DDFF;
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 30px;
-    border-radius: 25px;
-}
-
-.azure_title {
+.title {
     color: #0B89FD;
-    margin-bottom: 30px;
+    margin: 20px 0;
 }
 
 .phone {
-    width: 300px;
+    width: 270px;
 }
 
-.other-card {
+.apple {
+    color:white;
+    margin-right: 3px;
+}
+
+.foto_hero {
+    width: 260px;
+    float: right;
+    margin-right:20px;
+}
+
+.button-blu {
+    background-color:#0084FD;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+
+.box {
+    background-color: #B5DDFF;
+    padding-left: 25px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 65%; 
+}
+
+.flex_hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
     background-color: #B5DDFF;
     border-radius: 25px;
-    margin-left: auto;
-    width: 380px
+}
+
+.ennesimo {
+    background-color: #B5DDFF;
+    margin-top: 40px;
+    margin-left: 4px;
+    width: 30%;
+    border-radius: 25px;
 }
 
 .three-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
     background-color: #B5DDFF;
     border-radius: 25px;
-    width: 320px;
-    margin: 15px 10px;
-}
-
-.text-center {
-    text-align: center;
 }
 
 .subtitle {
     line-height: 26px;
-    width: 250px;
-    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px 30px;
 }
 
-.clean-code-mr-top {
-    margin-top: 30px;
-}
-
-.clean-code {
+.fontawesome {
     color: #0084FD;
     font-size: 45px;
-    margin-bottom: 30px;
+    margin: 20px 0;
 }
 
+.flex-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prova {
+    width: 280px;
+}
 
 /* Da qui in avanti iniziano le media queries.  */
 
@@ -143,7 +171,6 @@ color: white;
         max-width:  1100px;
         width: 100%;
     }
-
 }
 
 @media (max-width: 992px) {
@@ -151,7 +178,6 @@ color: white;
         max-width:  880px;
         width: 100%;
     }
-
 }
 
 @media (max-width: 720px) {
@@ -159,7 +185,6 @@ color: white;
         max-width:  680px;
         width: 100%;
     }
-
 }
 
 @media (max-width: 685px) {
