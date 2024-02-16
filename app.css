@@ -171,6 +171,29 @@ body {
 
 .testimonial-foto {
 	aspect-ratio: 1 /1;
+	width: 200px;
+	border-radius: 100%;
+}
+
+.flex-testimonial {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.quote {
+	background-color: var(--lilac);
+	border-radius:25px ;
+	margin: 20px 0;
+	color: white;
+}
+
+.text-testimonial {
+	margin-bottom: 20px;
+}
+
+.padding-testimonial {
+	padding: 20px;
 }
 
 /* CARD FEATURE */
