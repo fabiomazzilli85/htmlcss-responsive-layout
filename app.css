@@ -41,6 +41,12 @@ img {
 	max-width: 904px;
 }
 
+.container,
+.container-sm {
+	margin: 0 auto;
+	padding: 0 calc(var(--gutter) * 0.5);
+}
+
 
 /* Header */
 
@@ -51,9 +57,8 @@ img {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
 }
 
 .logo {
@@ -83,9 +88,10 @@ color: white;
 
 .hamburger {
     color: white;
-
 }
 
+
+/* 
 .bg_blu_button {
     background-color: #0084FD;
     color: white;
@@ -168,7 +174,7 @@ color: white;
 .flex-cards {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 
 /* Da qui in avanti iniziano le media queries.  */
