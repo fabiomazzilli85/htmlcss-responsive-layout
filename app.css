@@ -270,6 +270,23 @@ body {
 	}
 }
 
+
 .subtitle {
     color: #4F6170;
+}
+
+@media  (min-width: 769px) {
+	.flex-testimonial {
+		flex-direction: row;
+	}
+}
+	  
+@media  (max-width: 768px) {
+	.flex-testimonial {
+		  flex-direction: column;
+		}
+
+	.text-testimonial {
+		line-height: 25px;
+	}
 }
