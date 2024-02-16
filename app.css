@@ -188,6 +188,12 @@ body {
 	color: white;
 }
 
+
+.who-is {
+	font-weight: 700;
+}
+
+
 .text-testimonial {
 	margin-bottom: 20px;
 }
@@ -286,7 +292,13 @@ body {
 		  flex-direction: column;
 		}
 
+
 	.text-testimonial {
 		line-height: 25px;
+		text-align: center;
+	}
+
+	.who-is {
+		text-align: center;
 	}
 }
