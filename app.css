@@ -75,7 +75,7 @@ body {
 
 /* COMPONENTS */
 .button {
-	border-radius: 999px;
+	border-radius: 25px;
 	line-height: 46px;
 	background-color: var(--dark-blue);
 	color: white;
