@@ -203,6 +203,29 @@ body {
 	padding-bottom: 30px;
 }
 
+.benefits {
+	background-color: #9792E4;
+	padding: 50px 0px;
+}
+
+.benefits-flex {
+	display: flex;
+	justify-content: center;
+}
+
+.title-benefits {
+	color: white;
+	text-align: center;
+}
+
+.card-benefit {
+	background-color: white;
+}
+
+.purple-text {
+	color: #9792E4;
+}
+
 /* CARD FEATURE */
 
 [class^='col-'] > .card {
@@ -276,7 +299,6 @@ body {
 		margin: 0 auto;
 	}
 }
-
 
 .subtitle {
     color: #4F6170;
