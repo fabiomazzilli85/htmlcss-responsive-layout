@@ -169,6 +169,10 @@ body {
 	color: var(--lilac);
 }
 
+.testimonial-foto {
+	aspect-ratio: 1 /1;
+}
+
 /* CARD FEATURE */
 
 [class^='col-'] > .card {
