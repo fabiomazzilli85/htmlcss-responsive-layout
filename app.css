@@ -47,6 +47,8 @@ img {
 	padding: 0 calc(var(--gutter) * 0.5);
 }
 
+/* Il  blocco qui sopra l'ho copiato integralmente dal Repo di Gianluca. E' una cosa su cui devo ragionarci in un secondo momento.   */
+
 
 /* Header */
 
@@ -57,26 +59,13 @@ img {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .logo {
     margin-left: 20px;
     width: 60px;
-}
-
-ul {
-    display: flex;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-margin: 20px;
-color: white;
 }
 
 .start {
@@ -88,119 +77,19 @@ color: white;
 
 .hamburger {
     color: white;
+    display: block;
+}
+ 
+.main-menu {
+    display: none;
 }
 
+@media (min-width: 992px) {
+	 .main-menu {
+		display: flex;
+	}
 
-/* 
-.bg_blu_button {
-    background-color: #0084FD;
-    color: white;
-    border: none;
-    padding: 7px 25px;
-    border-radius: 25px;
+	.hamburger {
+		display: none;
+	}
 }
-
-.title {
-    color: #0B89FD;
-    margin: 20px 0;
-}
-
-.apple {
-    color:white;
-    margin-right: 3px;
-}
-
-.button-blu {
-    background-color:#0084FD;
-    padding: 10px 40px;
-    border-radius: 25px;
-    border: none;
-    color: white;
-}
-
-.box {
-    background-color: #B5DDFF;
-    padding-left: 25px;
-    border-radius: 25px;
-    margin-top: 40px;
-    margin-left: 40px;
-    width: 62%; 
-}
-
-.flex_hero {
-    display: flex;
-    justify-content: space-around;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #B5DDFF;
-    margin-top: 40px;
-    margin-left: 40px;
-    width: 30%;
-    border-radius: 25px;
-}
-
-.three-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    margin-left: 40px;
-    background-color: #B5DDFF;
-    border-radius: 25px;
-}
-
-.title-down {
-    line-height: 26px;
-    margin-bottom: 20px;
-    width: 260px;
-}
-
-.subtitle {
-    line-height: 26px;
-    text-align: center;
-    padding: 20px 30px;
-}
-
-.fontawesome {
-    color: #0084FD;
-    font-size: 45px;
-    margin: 20px 0;
-}
-
-.flex-cards {
-    display: flex;
-    justify-content: space-between;
-} */
-
-
-/* Da qui in avanti iniziano le media queries.  */
-
-
-
-@media (min-width: <576px) {
-    
-  }
-
-  @media (min-width: ≥576px) {
-  
-  }
-
-  @media (min-width: ≥768px) {
-
-  }
-
-  @media (min-width: ≥992px) {
-    
-  }
-  
-  @media (min-width: ≥1200px) {
-    
-  }
-
-  @media (min-width: ≥1400px) {
-    
-  }
