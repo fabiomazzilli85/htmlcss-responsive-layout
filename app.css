@@ -148,6 +148,27 @@ body {
 	padding: 50px 0;
 }
 
+.testimonial {
+	padding-bottom: 50px;
+}
+
+.partner {
+	text-align: center;
+}
+
+.title {
+	margin: 25px 0;
+	text-align: center;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.lilac-title {
+	color: var(--lilac);
+}
+
 /* CARD FEATURE */
 
 [class^='col-'] > .card {
