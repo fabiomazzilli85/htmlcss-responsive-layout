@@ -219,13 +219,6 @@ body {
 	margin-bottom: 30px;
 }
 
-.card-benefits {
-	background-color: white;
-	margin: 0 10px;
-	border-radius: 25px;
-	padding: 15px;
-}
-
 .purple-text {
 	color: #9792E4;
 	margin: 15px 0;
@@ -320,6 +313,15 @@ body {
 	border: none;
 } 
 
+.card-benefits {
+	width: calc(33.33% - 20px);	
+	padding: 20px;
+	background-color: white;
+	margin: 0 10px;
+	border-radius: 25px;
+	padding: 15px;
+}
+
 @media  (min-width: 769px) {
 	.flex-testimonial {
 		flex-direction: row;
@@ -332,6 +334,13 @@ body {
 		}
 
 
+@media (max-width: 1050px) {
+	.test-item {
+		width: calc(50% - 20px);
+	}
+}
+
+
 	.text-testimonial {
 		line-height: 25px;
 		text-align: center;
@@ -341,3 +350,4 @@ body {
 		text-align: center;
 	}
 }
+
