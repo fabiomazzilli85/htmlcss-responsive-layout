@@ -74,6 +74,13 @@ body {
 	}
 }
 
+/* medium device: da 750 px a 1050px  */
+@media (min-width: 750px) and (max-width: 1050px) {
+	.col-md-6 {
+		width: calc(6 * 100% / 12);
+	}
+}
+
 /* COMPONENTS */
 .button {
 	border-radius: 25px;
