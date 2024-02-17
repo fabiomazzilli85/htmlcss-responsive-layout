@@ -210,8 +210,8 @@ body {
 
 .benefits-flex {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
+	justify-content: flex-start;
 }
 
 .title-benefits {
@@ -315,14 +315,12 @@ body {
 } 
 
 .card-benefits {
-	width: calc(33.33% - 20px);
+	width: calc(33.33% - 30px);
+	margin: 0 15px;
 	background-color: white;
-	margin: 0 10px;
 	border-radius: 25px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	padding: 30px;
+	flex-direction: row;
+	padding: 25px;
 }
 
 @media  (min-width: 769px) {
