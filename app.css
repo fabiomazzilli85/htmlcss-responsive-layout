@@ -78,6 +78,8 @@ body {
 @media (min-width: 750px) and (max-width: 1050px) {
 	.col-md-6 {
 		width: calc(6 * 100% / 12);
+		.subtitle {text-align: center};
+		.purple-text {text-align: center;};
 	}
 }
 
