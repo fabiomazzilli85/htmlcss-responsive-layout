@@ -216,14 +216,19 @@ body {
 .title-benefits {
 	color: white;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
-.card-benefit {
+.card-benefits {
 	background-color: white;
+	margin: 0 10px;
+	border-radius: 25px;
+	padding: 15px;
 }
 
 .purple-text {
 	color: #9792E4;
+	margin: 15px 0;
 }
 
 /* CARD FEATURE */
@@ -302,7 +307,17 @@ body {
 
 .subtitle {
     color: #4F6170;
+	line-height: 25px;
 }
+
+.button-purple {
+	margin-top: 20px;
+	background-color: var(--lilac);
+	color: white;
+	padding: 7px 30px;
+	border-radius: 25px;
+	border: none;
+} 
 
 @media  (min-width: 769px) {
 	.flex-testimonial {
