@@ -222,7 +222,7 @@ body {
 
 .purple-text {
 	color: #9792E4;
-	margin: 15px 0;
+	margin: 20px
 }
 
 
@@ -314,6 +314,14 @@ body {
 	border: none;
 } 
 
+.mr-purple {
+	margin: 5px 20px;
+}
+
+.purple-text-mr {
+	margin-top: 20px;
+}
+
 .card-benefits {
 	width: calc(33.33% - 30px);
 	margin: 0 15px;
@@ -353,4 +361,14 @@ body {
 	.who-is {
 		text-align: center;
 	}
+
+.test {
+	background-color: white;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.subtitle-mr {
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
