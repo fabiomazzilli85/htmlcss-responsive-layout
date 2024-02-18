@@ -379,6 +379,17 @@ body {
 		text-align: center;
 	}
 
+	@media (max-width: 768px) {
+		.text-testimonial {
+		  font-size: 18px;
+		  line-height: 25px;
+		}
+		.who-is {
+			font-size: 20px;
+		}
+	  }
+	
+
 	.who-is {
 		text-align: center;
 	}
@@ -397,6 +408,6 @@ body {
 
 @media (max-width: 768px) {
 	h2 {
-	  font-size: 28px;
+	  font-size: 24px;
 	}
   }
