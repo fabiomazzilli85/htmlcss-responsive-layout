@@ -250,6 +250,12 @@ body {
 	margin: 20px
 }
 
+@media (max-width: 768px) {
+	.purple-text {
+	  text-align: center;
+	}
+  }
+
 
 /* CARD FEATURE */
 
@@ -340,6 +346,7 @@ body {
 	.subtitle {
 	  font-size: 20px;
 	  line-height: 25px;
+	  text-align: center;
 	}
   }
 
