@@ -429,3 +429,9 @@ body {
 	  font-size: 24px;
 	}
   }
+
+  @media (max-width: 300px) {
+	body {
+	  display: none;
+	}
+  }
