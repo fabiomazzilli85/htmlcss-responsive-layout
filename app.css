@@ -78,8 +78,6 @@ body {
 @media (min-width: 750px) and (max-width: 1050px) {
 	.col-md-6 {
 		width: calc(6 * 100% / 12);
-		.subtitle {text-align: center};
-		.purple-text {text-align: center;};
 	}
 }
 
@@ -208,6 +206,12 @@ body {
 	margin-bottom: 20px;
 }
 
+@media (max-width: 	<576px) {
+	.text-testimonial {
+	  font-size: 20px;
+	}
+  }
+
 .padding-testimonial {
 	padding: 30px;
 }
@@ -314,6 +318,14 @@ body {
 	line-height: 25px;
 }
 
+@media (max-width: 768px) {
+	.subtitle {
+	  font-size: 18px;
+	  line-height: 25px;
+	}
+  }
+
+
 .button-purple {
 	margin-top: 20px;
 	background-color: var(--lilac);
@@ -381,3 +393,4 @@ body {
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
+
